@@ -8,4 +8,7 @@ package alibaba.practice.basic.Demo05;
  * 谁终将声震人间，必长久深自缄默；谁终将点燃闪电，必长久如云漂泊。
  **/
 public class Basic52 {
+    public static void main(String[] args) {
+        System.out.println("测试代码提交");
+    }
 }
