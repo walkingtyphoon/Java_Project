@@ -43,7 +43,15 @@ public class Person {
                 '}';
     }
 
-    public void eat(String foodName){
+    public void eat(){
+        System.out.println("我想吃水果");
+    }
 
+    public void eat(String foodName){
+        System.out.println("i want eat "+foodName);
+    }
+
+    public void eat(Integer value,String name){
+        System.out.println("我想吃"+value+"个"+name);
     }
 }
