@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tn:books xsi:schemaLocation="http://www.test.com t.xsd" xmlns:tn="http://www.test.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tn:book id="1">
+        <tn:title>a</tn:title>
+        <tn:price>10</tn:price>
+    </tn:book>
+    <tn:book id="2">
+        <tn:title>a</tn:title>
+        <tn:price>10</tn:price>
+    </tn:book>
+    <tn:book id="3">
+        <tn:title>a</tn:title>
+        <tn:price>10</tn:price>
+    </tn:book>
+</tn:books>

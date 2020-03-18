@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 这是文档声明 -->
+
+<xsd:schema xmlns="http://www.itcast.cn/xml"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.itcast.cn/xml"
+            elementFormDefault="qualified">
+    <!--  规范必须要有的  -->
+    <xsd:element name="users">
+
+        <!--  声明用户类型  -->
+        <xsd:complexType>
+
+            <xsd:sequence>
+                <!--    设置ID的属性信息     -->
+                <xsd:element name="user" maxOccurs="unbounded">
+
+                    <xsd:complexType>
+                        <!--设置用户类型-->
+                        <xsd:sequence>
+                            <xsd:element name ="name" type="nameType" />
+                            <!--设置用户的年龄-->
+                            <xsd:element name = "age" type="ageType" />
+                            <!--设置用户的性别-->
+                            <xsd:element name = "gender" type="genderType" />
+                            <!--设置用户的工资-->
+                            <xsd:element name = "salary" type="salaryType" />
+                        </xsd:sequence>
+                        <xsd:attribute name = "id" type="xsd:ID" />
+                        <!--设置用户的id-->
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+
+    <!--创建用户的姓名属性-->
+    <xsd:simpleType name="nameType">
+        <xsd:restriction base="xsd:string">
+            <!--设置输入值类型-->
+            <xsd:pattern value="\w{2,4}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <!--创建用户的年龄属性-->
+    <xsd:simpleType name="ageType">
+        <xsd:restriction base="xsd:integer">
+            <!--设置输入值类型-->
+            <xsd:minInclusive value="1"/>
+            <xsd:maxInclusive value="100"/>
+        </xsd:restriction>
+
+    </xsd:simpleType>
+
+    <!--设置性别属性-->
+    <xsd:simpleType name="genderType">
+        <xsd:restriction base="xsd:string">
+            <!--设置字符串类型-->
+            <xsd:enumeration value="male"/>
+            <xsd:enumeration value="female"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <!--设置工资属性-->
+    <xsd:simpleType name="salaryType">
+        <xsd:restriction base="xsd:integer">
+            <!--设置工资类型-->
+            <xsd:minInclusive value="0"/>
+            <xsd:maxInclusive value="2147483647"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+</xsd:schema>
+
