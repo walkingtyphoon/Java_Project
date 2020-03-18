@@ -1,0 +1,178 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+.gitignore
+alibaba/inclass/Demo4/Day26/
+!/c3p0-config.xml
+!/02.xml
+!/03.xml
+!/LICENSE
+!/user.xml
+!/05.xml
+!/02.txt
+!/01.txt
+!/.gitignore
+!/04.xml
+!/Java workspace.iml
+!/RemoteSystemsTempFiles/
+!/.metadata/
+!/.idea/
+将删除 .metadata/.mylyn/contexts/
+将删除 .metadata/.plugins/org.eclipse.core.resources/.projects/Test/org.eclipse.jdt.apt.core/
+将删除 .metadata/.plugins/org.eclipse.emf.common.ui/
+将删除 .metadata/.plugins/org.eclipse.ltk.core.refactoring/
+将删除 .metadata/.plugins/org.eclipse.mylyn.bugzilla.core/
+将删除 .metadata/.plugins/org.eclipse.mylyn.context.core/
+将删除 .metadata/.plugins/org.eclipse.mylyn.tasks.ui/
+将删除 .metadata/.plugins/org.eclipse.pde.api.tools/
+将删除 .metadata/.plugins/org.eclipse.pde.core/.p2/
+将删除 .metadata/.plugins/org.eclipse.team.cvs.core/
+将删除 .metadata/.plugins/org.eclipse.ui.intro/
+将删除 .metadata/.plugins/org.eclipse.wst.common.modulecore/
+将删除 .metadata/.plugins/org.eclipse.wst.server.core/
+将删除 src/alibaba/inclass/demo4/xsd3/
+!/c3p0-config.xml
+!/02.xml
+!/03.xml
+!/LICENSE
+!/README.md
+!/user.xml
+!/02.txt
+!/05.xml
+!/.gitignore
+!/01.txt
+!/04.xml
+!/Java workspace.iml
+.metadata/.mylyn/contexts/
+.metadata/.plugins/org.eclipse.core.resources/.projects/Test/org.eclipse.jdt.apt.core/
+.metadata/.plugins/org.eclipse.emf.common.ui/
+.metadata/.plugins/org.eclipse.ltk.core.refactoring/
+.metadata/.plugins/org.eclipse.mylyn.bugzilla.core/
+.metadata/.plugins/org.eclipse.mylyn.context.core/
+.metadata/.plugins/org.eclipse.mylyn.tasks.ui/
+.metadata/.plugins/org.eclipse.pde.api.tools/
+.metadata/.plugins/org.eclipse.pde.core/.p2/
+.metadata/.plugins/org.eclipse.team.cvs.core/
+.metadata/.plugins/org.eclipse.ui.intro/
+.metadata/.plugins/org.eclipse.wst.common.modulecore/
+.metadata/.plugins/org.eclipse.wst.server.core/
+src/alibaba/inclass/demo4/xsd3/
+!/bin/alibaba/gui/
+!/RemoteSystemsTempFiles/
+!/.metadata/
+!/.idea/
+!/03.xml
+!/README.md
+!/05.xml
+!/01.txt
+!/Java workspace.iml
+!/c3p0-config.xml
+!/02.xml
+!/LICENSE
+!/user.xml
+!/src/log4j.properties
+!/02.txt
+!/.gitignore
+!/04.xml
+.idea/artifacts/
+.idea/dictionaries/
+.idea/inspectionProfiles/
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/qaplug_profiles.xml
+.idea/uiDesigner.xml
+.idea/vcs.xml
+.metadata/.lock
+.metadata/.mylyn/.taskListIndex/
+.metadata/.plugins/org.eclipse.core.resources/.history/
+.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/
+.metadata/.plugins/org.eclipse.core.resources/.projects/Test/.indexes/
+.metadata/.plugins/org.eclipse.core.resources/.projects/Test/.markers
+.metadata/.plugins/org.eclipse.core.resources/.projects/Test/org.eclipse.egit.core/
+.metadata/.plugins/org.eclipse.core.resources/.projects/Test/org.eclipse.jdt.core/
+.metadata/.plugins/org.eclipse.core.resources/.root/
+.metadata/.plugins/org.eclipse.core.resources/.safetable/
+.metadata/.plugins/org.eclipse.core.runtime/
+.metadata/.plugins/org.eclipse.debug.core/
+.metadata/.plugins/org.eclipse.debug.ui/
+.metadata/.plugins/org.eclipse.e4.workbench/
+.metadata/.plugins/org.eclipse.jdt.core/
+.metadata/.plugins/org.eclipse.jdt.launching/
+.metadata/.plugins/org.eclipse.jdt.ui/
+.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.5.1.20150109-1820.xml
+.metadata/.plugins/org.eclipse.pde.core/.cache/
+.metadata/.plugins/org.eclipse.rse.core/initializerMarks/
+.metadata/.plugins/org.eclipse.rse.core/profiles/
+.metadata/.plugins/org.eclipse.ui.ide/
+.metadata/.plugins/org.eclipse.ui.workbench/
+.metadata/version.ini
+01.txt
+02.txt
+02.xml
+03.xml
+04.xml
+05.xml
+Java workspace.iml
+LICENSE
+README.md
+bin/
+c3p0-config.xml
+src/alibaba/gui/01.ico
+src/alibaba/gui/1.gif
+src/alibaba/gui/2.ico
+src/alibaba/gui/timg.jfif
+src/alibaba/inclass/demo4/Test01/
+src/alibaba/inclass/demo4/dtd/
+src/alibaba/inclass/demo4/xsd/
+src/alibaba/inclass/demo4/xsd2/
+src/alibaba/inclass/demo5/Practice01.java
+src/alibaba/inclass/demo5/Practice02.java
+src/alibaba/inclass/demo5/Student.java
+src/alibaba/inclass/demo5/StudentController.java
+src/alibaba/inclass/demo5/StudentView.java
+src/alibaba/inclass/demo5/TestLog.java
+src/alibaba/inclass/demo5/TestMvc.java
+src/alibaba/inclass/demo6/Emp.java
+src/alibaba/inclass/demo6/JsonpTest.java
+src/alibaba/inclass/demo6/ReadXml01Test.java
+src/alibaba/practice/
+src/alibaba/preview/demo1/Interface01.java
+src/alibaba/preview/demo1/Java801Test.java
+src/alibaba/preview/demo1/Preiview04.java
+src/alibaba/preview/demo1/Preview01.java
+src/alibaba/preview/demo1/Preview02.java
+src/alibaba/preview/demo1/Preview03.java
+src/alibaba/preview/demo1/Preview04.java
+src/alibaba/preview/demo1/Preview05.java
+src/alibaba/project/
+src/alibaba/research/
+src/log4j.properties
+src/the/calf/is/growing/Demo1/Solution003.java
+src/the/calf/is/growing/Demo1/TestMemory.java
+src/the/calf/is/growing/Demo1/TestString03.java
+src/the/calf/is/growing/Demo2/
+user.xml
+!/bin/alibaba/gui/
+!/.metadata/
+!/.idea/

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding="UTF-8"?>
+        <!ELEMENT users (user+)>
+        <!ELEMENT user (name,age,gender,salary) >
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT age (#PCDATA)>
+        <!ELEMENT gender (#PCDATA) >
+        <!ELEMENT salary (#PCDATA) >
+        <!ATTLIST user id ID >
+        <!--
+        <?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT students (student+) >
+        <!ELEMENT student (name,age,sex)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT age (#PCDATA)>
+        <!ELEMENT sex (#PCDATA)>
+        <!ATTLIST student number ID #REQUIRED>-->
