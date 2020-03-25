@@ -176,3 +176,8 @@ user.xml
 !/bin/alibaba/gui/
 !/.metadata/
 !/.idea/
+/.idea/
+/.metadata/
+/bin/alibaba/gui/
+/out/
+02.xml
