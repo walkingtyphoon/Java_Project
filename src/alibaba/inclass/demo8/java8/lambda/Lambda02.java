@@ -1,6 +1,6 @@
 package alibaba.inclass.demo8.java8.lambda;
 
-/*
+/**
  * @program: Java workspace
  * @description: 使用Runnable实现接口
  * @author: walki

@@ -13,13 +13,7 @@ import java.util.List;
 public class TestNewMethod {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
-        list.forEach(TestNewMethod::new);
+        list.forEach(s -> System.out.println("s = " + s));
         // 调用构造方法,也可以调用静态方法
-    }
-    public static void print(int i){
-        System.out.println(i);
-    }
-    public TestNewMethod(Integer integer){
-        System.out.println(integer);
     }
 }

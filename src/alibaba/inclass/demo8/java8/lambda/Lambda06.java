@@ -1,6 +1,6 @@
 package alibaba.inclass.demo8.java8.lambda;
 
-/*
+/**
  * @program: Java workspace
  * @description: 练习题三
  * @author: walki
