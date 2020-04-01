@@ -14,6 +14,16 @@ public class Function1 {
    * @param args 主方法的参数
    */
   public static void main(String[] args) {
-  
+    show(()-> System.out.println("这是使用lambda表达式调用的方法"));
+    // 使用lambda表达式调用方法
+    show(new MyInterfaceImpl());
+    // 作为参数传递
+  }
+
+  /**.
+   * @param myInterface 这是函数式接口
+   */
+  static void show(MyInterface myInterface){
+    myInterface.method();
   }
 }
