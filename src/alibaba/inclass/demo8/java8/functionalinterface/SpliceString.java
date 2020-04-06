@@ -1,5 +1,7 @@
 package alibaba.inclass.demo8.java8.functionalinterface;
 
+import org.junit.Test;
+
 import java.util.function.Consumer;
 
 /**
@@ -23,12 +25,14 @@ public class SpliceString {
     public static void main(String[] args) {
         String[] array = {"迪丽热巴,女", "古力娜扎,女", "马尔扎哈,男", "哈尼克孜,女"};
         // 创建字符串集合
-        showMessage(array, s1 -> System.out.print("姓名:" + s1.split(",")[0]), s -> System.out.println(",性别:" + s.split(",")[1]));
+        showMessage(array,
+                s1 -> System.out.print("姓名:" + s1.split(",")[0]),
+                s -> System.out.println(",性别:" + s.split(",")[1]));
         // 输出切割后的，格式化的字符串[0]，代表切割后的第一个
     }
 
     /**.
-     * @param array 字符串数组
+     * @param array     字符串数组
      * @param consumer1 消费型函数式接口1
      * @param consumer2 消费型函数式接口2
      */
