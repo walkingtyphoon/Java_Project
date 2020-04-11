@@ -24,6 +24,7 @@ public class MethodDemo1 {
         // 测试方法的引用
         consumer1.accept("古力娜扎");
 
+
         Person person = new Person();
 
         Supplier<String> supplier = () -> person.getName();
@@ -37,6 +38,8 @@ public class MethodDemo1 {
         int age = supplier1.get();
 
         System.out.println("age = " + age);
+
+
 
         Comparator<Integer> comparator = (x,y) -> Integer.compare(x,y);
 
